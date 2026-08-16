@@ -4,6 +4,12 @@ export type LogoProps = ImgHTMLAttributes<HTMLImageElement>;
 
 export const BrandingLogoIcon = ({ className, style, ...props }: LogoProps) => {
   return (
-    <img src="/logo.svg" alt="JB Sign" className={className} style={{ ...style, objectFit: 'contain' }} {...props} />
+    <img
+      src="/icon.png"
+      alt="JB Sign Icon"
+      className={className}
+      style={{ ...style, objectFit: 'contain' }}
+      {...props}
+    />
   );
 };
