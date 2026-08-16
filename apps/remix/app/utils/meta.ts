@@ -7,7 +7,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
 
   return [
     {
-      title: title ? `${i18n._(title)} - Documenso` : 'Documenso',
+      title: title ? `${i18n._(title)} - JB Sign` : 'JB Sign',
     },
     {
       name: 'description',
@@ -20,7 +20,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     },
     {
       name: 'author',
-      content: 'Documenso, Inc.',
+      content: 'JB Sign, Inc.',
     },
     {
       name: 'robots',
@@ -28,7 +28,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     },
     {
       property: 'og:title',
-      content: 'Documenso - The Open Source DocuSign Alternative',
+      content: 'JB Sign',
     },
     {
       property: 'og:description',
@@ -48,7 +48,7 @@ export const appMetaTags = (title?: MessageDescriptor) => {
     },
     {
       name: 'twitter:site',
-      content: '@documenso',
+      content: '@jbsign',
     },
     {
       name: 'twitter:description',
